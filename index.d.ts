@@ -73,11 +73,8 @@ declare module "react-native-jw-media-player" {
     play(): void;
     stop(): void;
     toggleSpeed(): void;
-<<<<<<< HEAD
     setCurrentCaptions(index: number): void;
-=======
     setSpeed(speed: number): void;
->>>>>>> upstream/master
     setPlaylistIndex(index: number): void;
     setControls(shouldDisplayControl: boolean): void;
     loadPlaylist(playlist: PlaylistItem[]): void;
